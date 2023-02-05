@@ -9,6 +9,11 @@
             "name": "Test",
             "channelID": 2007719,
             "readAPIKey": "9OHZ3MCCKAA1X9S2"
+        },
+         {
+            "name": "Konat Test Channel",
+            "channelID": 2010447,
+            "readAPIKey": "YV4Z6MDM81LEYCCD"
         }
     ]
 }
