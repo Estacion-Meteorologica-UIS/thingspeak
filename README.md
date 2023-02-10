@@ -33,7 +33,7 @@ En este canal se registra un promedio y valores pico de las variables medidas ca
   - [x] Field 5: CO2 Promedio hora
   - [x] Field 6: Max temperatura en la hora
   - [x] Field 7: Min temperatura en la hora
-  - [x] Field 8: Max UV Hora
+  - [x] Field 8: Max UV en la hora
 
 ### Reportes Diarios
 En este canal se registra un promedio y valores pico de las variables medidas cada día. 
