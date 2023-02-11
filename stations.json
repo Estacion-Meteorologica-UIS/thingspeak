@@ -1,19 +1,20 @@
 {
-    "stations": [
-        {
-            "name": "Estación Meteorológica UIS - 1",
-            "channelID": 2018613,
-            "readAPIKey": "YAXL6GXAOO8FR27G"
-        },
-        {
-            "name": "Test",
-            "channelID": 2007719,
-            "readAPIKey": "9OHZ3MCCKAA1X9S2"
-        },
-         {
-            "name": "Konat Test Channel",
-            "channelID": 2010447,
-            "readAPIKey": "YV4Z6MDM81LEYCCD"
-        }
-    ]
+  "stations": [
+      ...
+      {
+          "name": "Estación Meteorológica UIS 3",
+          "live": {
+              "channelID": 2026237,
+              "readAPIKey": "RTVUH9H2BB5SYAGS",
+          },
+          "hourly": {
+              "channelID": 2026238,
+              "readAPIKey": "X3U9425RFLCQBF1Z",
+          },
+          "daily": {
+              "channelID": 2026239,
+              "readAPIKey": "3GAGR0ABW21X4RL5",
+          },
+      },
+  ]
 }
