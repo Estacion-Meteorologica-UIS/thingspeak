@@ -54,11 +54,15 @@ Para generar los reportes de cada hora y diarios de forma automática se usan la
 
 ### Reportes cada Hora
 - MATLAB Analysis: El código de MATLAB se encuentra en `hourly_analysis.m`
-- TimeControl: <intert img>
+- TimeControl: 
+  
+  ![control_time_reporte_hora](https://user-images.githubusercontent.com/68023577/218236859-0fcc5652-786d-445a-856c-f6b5112c80bb.PNG)
   
 ### Reportes Diarios
 - MATLAB Analysis: El código de MATLAB se encuentra en `daily_analysis.m`
-- TimeControl: <intert img>
+- TimeControl:
+  
+  ![control_time_reporte_dia](https://user-images.githubusercontent.com/68023577/218236867-bdad4932-2b99-47a1-9a1f-fc77099649c4.PNG)
   
 
 ## Credenciales Canales
