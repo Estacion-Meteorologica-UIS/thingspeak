@@ -1,6 +1,21 @@
 {
   "stations": [
       {
+          "name": "Estación Meteorológica UIS 1",
+          "live": {
+              "channelID": 2018613,
+              "readAPIKey": "YAXL6GXAOO8FR27G",
+          },
+          "hourly": {
+              "channelID": 2030719,
+              "readAPIKey": "RIDQH0QSBKZ2VZ9N",
+          },
+          "daily": {
+              "channelID": 2030721,
+              "readAPIKey": "D11F0K7IUQ85M4RO",
+          },
+      },
+      {
           "name": "Estación Meteorológica UIS 2",
           "live": {
               "channelID": 2010447,
