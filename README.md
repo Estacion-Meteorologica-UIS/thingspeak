@@ -1,6 +1,6 @@
 # ThingSpeak
 
-Este proyecto se ha logrado llevar a cabo con el soporte de [ThingSpeak](https://thingspeak.com/), un servicio de IoT que permite almacenar y analiar datos en vivo en la nube de manera rápida y sencilla. Los datos de las estaciones meteorológicas son enviados a ThingSpeak para luego hacer la lectura de estos en la [página web](https://estacion-meteorologica-uis.github.io/) del proyecto donde se muestra el estado de las estaciones en tiempo real e histórico.
+Este proyecto se ha logrado llevar a cabo con el soporte de [ThingSpeak](https://thingspeak.com/), un servicio de IoT que permite almacenar y analizar datos en vivo en la nube de manera rápida y sencilla. Los datos de las estaciones meteorológicas son enviados a ThingSpeak para luego hacer la lectura de estos en la [página web](https://estacion-meteorologica-uis.github.io/) del proyecto donde se muestra el estado de las estaciones en tiempo real e histórico.
 
 ## Guía de Configuración Canales de ThingSpeak
 
@@ -78,15 +78,15 @@ Si desea añadir nuevas estaciones a la lista, realice un pull request e inserte
       {
           "name": "<insert name>",
           "live": {
-              "channelID": <insert channerid>,
+              "channelID": <insert channelid>,
               "readAPIKey": "<insert readapikey>",
           },
           "hourly": {
-              "channelID": <insert channerid>,
+              "channelID": <insert channelid>,
               "readAPIKey": "<insert readapikey>",
           },
           "daily": {
-              "channelID": <insert channerid>,
+              "channelID": <insert channelid>,
               "readAPIKey": "<insert readapikey>",
           },
       },
