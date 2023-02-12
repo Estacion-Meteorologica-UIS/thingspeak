@@ -1,19 +1,64 @@
 {
-    "stations": [
-        {
-            "name": "Estación Meteorológica UIS - 1",
-            "channelID": 2018613,
-            "readAPIKey": "YAXL6GXAOO8FR27G"
+  "stations": [
+      {
+          "name": "Estación Meteorológica UIS 1",
+          "live": {
+              "channelID": 2018613,
+              "readAPIKey": "YAXL6GXAOO8FR27G",
+          },
+          "hourly": {
+              "channelID": 2030719,
+              "readAPIKey": "RIDQH0QSBKZ2VZ9N",
+          },
+          "daily": {
+              "channelID": 2030721,
+              "readAPIKey": "D11F0K7IUQ85M4RO",
+          },
+      },
+      {
+          "name": "Estación Meteorológica UIS 2",
+          "live": {
+              "channelID": 2010447,
+              "readAPIKey": "YV4Z6MDM81LEYCCD",
+          },
+          "hourly": {
+              "channelID": 2029541,
+              "readAPIKey": "136B293T0B37MYSG",
+          },
+          "daily": {
+              "channelID": 2030386,
+              "readAPIKey": "ITU1XFK4ZOHW2MOK",
+          },
+      },
+      {
+          "name": "Estación Meteorológica UIS 3",
+          "live": {
+              "channelID": 2026237,
+              "readAPIKey": "RTVUH9H2BB5SYAGS",
+          },
+          "hourly": {
+              "channelID": 2026238,
+              "readAPIKey": "X3U9425RFLCQBF1Z",
+          },
+          "daily": {
+              "channelID": 2026239,
+              "readAPIKey": "3GAGR0ABW21X4RL5",
+          },
+      },
+      {
+            "name": "Estación Meteorológica UIS 4",
+            "live": {
+                "channelID": 2026008,
+                "readAPIKey": "KX6YGMLUFVY8WMB8",
+            },
+            "hourly": {
+                "channelID": 2026018,
+                "readAPIKey": "22HFB0QJ538I4O5N",
+            },
+            "daily": {
+                "channelID": 2026021,
+                "readAPIKey": "BT8GTPOQVM4YKBCY",
+            },
         },
-        {
-            "name": "Test",
-            "channelID": 2007719,
-            "readAPIKey": "9OHZ3MCCKAA1X9S2"
-        },
-         {
-            "name": "Konat Test Channel",
-            "channelID": 2010447,
-            "readAPIKey": "YV4Z6MDM81LEYCCD"
-        }
-    ]
+  ]
 }
